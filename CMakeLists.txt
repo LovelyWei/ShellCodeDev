@@ -19,6 +19,7 @@ target_link_options(ShellCodeDev PRIVATE
         "/NODEFAULTLIB"
         "/DYNAMICBASE"
         "/NODEFAULTLIB"
+        "/MANIFEST:NO"
         "/BASE:0x140000000"
 )
 
