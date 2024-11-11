@@ -13,9 +13,10 @@ add_executable(ShellCodeDev
 
 target_link_options(ShellCodeDev PRIVATE
         "/ENTRY:ShellCodeEntry"
-        "/SUBSYSTEM:CONSOLE"
+        "/SUBSYSTEM:WINDOWS"
         "/FILEALIGN:16"
         "/ALIGN:16"
+        "/Zi-"
         "/NODEFAULTLIB"
         "/DYNAMICBASE"
         "/NODEFAULTLIB"
